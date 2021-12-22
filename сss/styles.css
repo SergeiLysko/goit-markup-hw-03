@@ -1,10 +1,10 @@
 :root {
     --main-title-color:#FFFFFF;
     --second-title-color: #212121;
-    --first-text-color: #757575;
-    --second-text-color:rgba(255, 255, 255, 0.6);
-    --second-text-color: #2196F3;
+    --first-text-color: rgba(255, 255, 255, 0.6);
+    --second-text-color:#757575;
     --third-text-color:#212121;
+    --fourth-text-color:#FFFFFF;
     --first-button-color:#FFFFFF;
     --second-button-color:#212121;
     --header-text-color:#212121;
@@ -12,8 +12,8 @@
 }
 
 body {
-  font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family:  Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .list {
@@ -22,11 +22,139 @@ list-style: none;
 .link {
     text-decoration: none;  
 }
+.header-logo{
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color:var(--accent-color)
+}
 .header-link{
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-color: var(--header-text-color)
+color: var(---third-text-color);
+}
+.header-link:hover,
+.header-link:focus {
+color:var(--accent-color);
+}
+.header-item{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:var(--second-title-color);
+}
+.header-list{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:var(--header-text-color);
+}
+.header-adress {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:var(--second-title-color)
+}
 
+.header-tel {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:var(--second-text-color)
+}
+ =============== /* main */ ==================
+.hero {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+color:var(--fourth-text-color);
+
+}
+
+.hero-link{
+font-weight: 900;
+font-size: 1.36;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color:var(--main-title-color)
+
+}
+ .hero-btn {
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color:var(--accent-color);
+}
+.hero-opti{
+    font: weight 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--second-title-color);
+}
+.hero-bolt{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--second-text-color)
+}
+.uklon{
+    
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color:var(--second-title-color)
+}
+.time{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--second-title-color)
+}
+.infinity{
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--second-text-color)
+}
+.bang
+{
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:var(--fourth-text-color)
+}
+.bang-r {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:var(--first-text-color)
 }
