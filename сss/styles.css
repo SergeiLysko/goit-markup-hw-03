@@ -23,8 +23,7 @@ list-style: none;
     text-decoration: none;  
 }
 .header-logo{
-font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -56,7 +55,6 @@ letter-spacing: 0.02em;
 color:var(--header-text-color);
 }
 .header-adress {
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -65,15 +63,18 @@ color:var(--second-title-color)
 }
 
 .header-tel {
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color:var(--second-text-color)
 }
+
+
+
  =============== /* main */ ==================
-.hero {
+
+ .hero {
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -93,14 +94,19 @@ text-transform: uppercase;
 color:var(--main-title-color)
 
 }
+}
  .hero-btn {
-font-weight: bold;
+font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
+color:var(--accent-color);
+}
+.hero-btn:hover,
+.hero-btn:focus {
 color:var(--accent-color);
 }
 .hero-opti{
@@ -112,8 +118,6 @@ text-transform: uppercase;
 color: var(--second-title-color);
 }
 .hero-bolt{
-font-style: normal;
-font-weight: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -121,8 +125,7 @@ color: var(--second-text-color)
 }
 .uklon{
     
-font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
@@ -157,4 +160,34 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color:var(--first-text-color)
+}
+
+=============== /* main portfolio*/ ==================
+.main-link {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--second-button-color)
+}
+
+.main-right {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+color: var(--second-text-color)
+}
+.main-port{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+color:var(--second-title-color)
 }
