@@ -31,10 +31,7 @@ body {
     color:var(--accent-color)
 }
 
-.header-link:hover,
-.header-link:focus {
-    color:var(--accent-color);
-}
+
 
 .header-link    {
     font-weight: 500;
@@ -43,6 +40,12 @@ body {
     letter-spacing: 0.02em;
     color: var(---third-text-color);
     }
+
+.header:hover,
+.header:focus {
+    color:var(--accent-color);
+}
+
 
 .header-item{
     font-weight: 500;
@@ -59,7 +62,7 @@ body {
     color:var(--header-text-color);
     }
 
-.header-adress,
+.header-adress:hover,
 .header-adress:focus {
   color:var(--accent-color);
 }
@@ -72,7 +75,7 @@ body {
     color:var(--second-title-color)
 }
 
-.header-tel,
+.header-tel:hover,
 .header-tel:focus {
     color:var(--accent-color);
     }
@@ -84,6 +87,7 @@ body {
     letter-spacing: 0.02em;
     color:var(--second-text-color)
     }
+  
 
 
 
@@ -164,6 +168,9 @@ body {
     letter-spacing: 0.03em;
     color:var(--second-text-color)
     }
+
+
+
 .bang
     {
     font-size: 14px;
@@ -176,6 +183,16 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color:var(--first-text-color)
+    }
+
+    .bang-r:hover,
+    .bang-r:focus {
+    color:var(--accent-color);
+    }
+
+    .bang:hover,
+    .bang:focus {
+        color: var(--accent-color);
     }
 
 =============== /* main portfolio*/ ==================
