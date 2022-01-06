@@ -206,3 +206,6 @@ color: var(--second-title-color);
     color:var(--accent-color);
 }
 
+.studio{
+    color: var(--fourth-text-color);
+}
