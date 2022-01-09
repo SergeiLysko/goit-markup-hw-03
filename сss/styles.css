@@ -42,8 +42,20 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--second-title-color)
 }
+
+.header-link {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:var(--second-title-color)
+  }
+
+  
 .header-link:hover,
-.header-item:focus {
+.header-link:focus {
     color:var(--accent-color);
 }
 
@@ -53,7 +65,19 @@ color: var(--second-title-color)
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color:var(--second-title-color)
+    color:var(--second-text-color);
+}
+
+
+.header {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--second-title-color);
+
 }
 
 .header-adress:hover,
