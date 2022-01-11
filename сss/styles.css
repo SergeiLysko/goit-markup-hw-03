@@ -229,6 +229,17 @@ color: var(--second-title-color);
     color:var(--second-title-color)
     }
 
+
+.main-right{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--second-text-color)
+}
+
 .hero-bt:hover,
 .hero-bt:focus {
     color:var(--accent-color);
