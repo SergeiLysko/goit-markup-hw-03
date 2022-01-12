@@ -13,6 +13,28 @@
     
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    cursor: pointer;
+
+}
+
+.container
+{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 body {
     font-family: "Roboto";
     }
@@ -78,6 +100,41 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--second-title-color);
 
+}
+.header-navigation{
+    display: flex;
+    align-items: center;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.header-connect{
+margin-left: auto;
+
+}
+
+.header-list{
+    display: flex;
+     margin-right: px;
+}
+
+.header-logo {
+   margin-right: 93px;
+}
+
+.header-item{
+margin-right: 50px;
+}
+
+.header-item:last-child {
+margin-right: 0;
+}
+
+.header-tel {
+    margin-left:50px;
 }
 
 .header-adress:hover,
