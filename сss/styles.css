@@ -55,6 +55,10 @@ letter-spacing: 0.03em;
  color:var(--accent-color)
 }
 
+.studio {
+    color: var(--header-text-color);
+}
+
 
 
 .header-item    {
@@ -98,6 +102,8 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+padding-top: 24px;
+padding-bottom: 24px;
 color: var(--second-title-color);
 
 }
@@ -118,8 +124,8 @@ margin-left: auto;
 
 .header-list{
     display: flex;
-     margin-right: px;
 }
+
 
 .header-logo {
    margin-right: 93px;
@@ -161,8 +167,8 @@ margin-right: 0;
 
  =============== /* main */ ==================
 
- .hero {
-background:var(--background-colorr)
+ .hero-container{
+   background: var(--background-colorr)
 }
 
 .hero-link{
@@ -252,7 +258,7 @@ text-transform: uppercase;
     color:var(--first-text-color)
     }
 
-=============== /* main portfolio*/ ==================
+============= /* main portfolio*/ ==================
 .main-link {
     font-family: Roboto;
     font-style: normal;
@@ -276,6 +282,10 @@ letter-spacing: 0.03em;
 color: var(--second-title-color);
 }
 
+.hero-bt:hover,
+.hero-bt:focus {
+    color:var(--accent-color);
+}
 .main-port{
     font-family: Roboto;
     font-style: normal;
@@ -297,11 +307,11 @@ letter-spacing: 0.03em;
 color: var(--second-text-color)
 }
 
-.hero-bt:hover,
-.hero-bt:focus {
-    color:var(--accent-color);
-}
 
-.studio{
-    color: var(--fourth-text-color);
+
+.studio2{
+    color: var(--main-title-color);
+}
+.bg2 {
+    background: var(--background-colorr)
 }
