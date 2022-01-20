@@ -122,6 +122,8 @@ margin-left: auto;
 
 }
 
+
+
 .header-list{
     display: flex;
 }
@@ -164,10 +166,12 @@ margin-right: 0;
   
 
 
+.hero-container {
+    display
+}
 
- =============== /* main */ ==================
 
- .hero-container{
+ .hero{ 
    background: var(--background-colorr)
 }
 
@@ -258,8 +262,8 @@ text-transform: uppercase;
     color:var(--first-text-color)
     }
 
-============= /* main portfolio*/ ==================
-.main-link {
+ /* main portfolio*/ 
+.main-list {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
